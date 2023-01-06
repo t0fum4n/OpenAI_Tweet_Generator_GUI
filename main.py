@@ -91,5 +91,9 @@ success_label.grid(row=7, column=0)
 response_label = tk.Label(text="")
 response_label.grid(row=8, column=0)
 
+# Adjust size
+window.geometry("500x400")
+
+
 # Run the Tkinter event loop
 window.mainloop()
